@@ -1,0 +1,40 @@
+body {
+  background: url(./images/confetti.jpg) no-repeat 50%;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.hello-shawn {
+  padding: 5%;
+  font-family: "Source Code Pro", monospace;
+}
+
+#text {
+  width: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  font-family: "Changa", sans-serif;
+}
+
+.thank-you {
+  width: 1000px;
+  height: 1000px;
+  background-image: url(./images/Doggiecard.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15%;
+}
+
+#outro {
+  font-family: "Changa", sans-serif;
+}
